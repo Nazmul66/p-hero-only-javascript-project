@@ -1,0 +1,20 @@
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li:hover{
+    color: aliceblue;
+}
+
+@media screen and (max-width: 576px){
+    nav{
+        position: absolute;
+        width: 100%;
+        min-height: 40vh;
+        z-index: 40;
+        background-color: red;
+        transition: all 0.3s ease-in-out;
+    }
+    nav ul li{
+        margin: 10px 0px;
+    }
+}

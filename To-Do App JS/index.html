@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-400">
+    <section class="w-9/12 mx-auto">
+        <h1 class="text-center text-5xl text-lime-400 mt-9 font-bold">Let's work at to-do app</h1>
+        <div class="mt-9 mb-20">
+            <input class="w-8/12 block px-5 h-10 rounded mb-4 outline-none mx-auto" type="text" name="" id="input-field" placeholder="Please write value">
+            <button id="btn-hash" class="bg-cyan-600 font-bold hover:bg-cyan-800 px-6 py-2 rounded-md text-white block mx-auto">Submit</button>
+        </div>
+        
+        <table class="w-full">
+           <thead class="text-white bg-blue-500 text-center">
+            <tr>
+                <th class="w-[16%]">No.</th>
+                <th class="w-[42%]">Values</th>
+                <th class="w-[42%]">Option</th>
+            </tr>
+           </thead>
+
+           <tbody id="body-part" class="text-center bg-orange-500 text-white">
+            <!-- <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> -->
+           </tbody>
+        </table>
+    </section>
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>

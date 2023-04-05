@@ -1,0 +1,35 @@
+.bolder, .em, .under{
+    background-color: orange;
+    color: #FFF;
+}
+.bolders{
+    font-weight: bold;
+}
+.ems{
+    font-style: italic;
+}
+.unders{
+    text-decoration: underline;
+}
+.centerValue{
+    text-align: center;
+}
+.leftValue{
+    text-align: left;
+}
+.rightValue{
+    text-align: right;
+}
+.justifyValue{
+    text-align: justify;
+}
+#selection{
+    -webkit-appearance: none;
+    text-align: center;
+    background: #9d9d9d;
+    color: #fff;
+    outline: none;
+}
+.line-height14{
+    line-height: 2.5em;
+}

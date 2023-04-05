@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li{
+    @apply mx-4 font-medium 
+}
+.active{
+    @apply text-yellow-300 hover:text-yellow-600
+}
+.default{
+    @apply  text-blue-400 hover:text-blue-600
+}

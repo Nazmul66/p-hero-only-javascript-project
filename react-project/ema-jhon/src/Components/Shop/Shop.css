@@ -1,0 +1,26 @@
+.shop-contain{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+}
+
+.shop-body{
+    padding: 150px 0px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 0 55px;
+}
+
+.shop-sidebar {
+    position: fixed;
+    background: rgba(255, 153, 0, 0.3);
+    top: 88px;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    z-index: 30;
+  }
+.shop-sidebar p{
+     color: red;
+}

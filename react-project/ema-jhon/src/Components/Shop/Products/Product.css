@@ -1,0 +1,56 @@
+
+.card-section{
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #95A0A7;
+    padding: 6px;
+    height: 508px;
+}
+.card-section img{
+   width: 100%;
+   border-radius: 8px;
+}
+.contents{
+    padding-left: 8px;
+}
+.contents h3{
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 0.0015em;
+    line-height: 25px;
+    color: #0E161A;
+    margin-bottom: 11px;
+}
+.contents h4{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.0015em;
+    color: #0E161A;
+    margin-bottom: 47px;
+}
+.contents p{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.004em;
+    color: #2A414F; 
+    margin-bottom: 11px;
+}
+
+.add-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 12px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    cursor: pointer;
+}
+
+
+

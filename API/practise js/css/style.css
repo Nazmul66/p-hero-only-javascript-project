@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.folder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+#increment,
+#decrement{
+    padding: 4px 20px;
+    font-size: 16px;
+    color: #FFF;
+    background: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.positive{
+    color: red;
+    animation: react 0.3s ease-in-out;
+}
+@keyframes react{
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+.negative{
+    color: blue;
+    animation: react1 0.3s ease-in-out;
+}
+@keyframes react1{
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}

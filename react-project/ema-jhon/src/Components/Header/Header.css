@@ -1,0 +1,28 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 33;
+    padding: 16px 0;
+    background-color: black;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.menu ul{
+   padding: 0;
+}
+.menu ul li{
+    list-style: none;  
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu ul li a{
+   color: #FFF;
+   font-size: 16px;
+}

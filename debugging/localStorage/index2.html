@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+    </style>
+</head>
+<body>   
+
+     <div class="main">
+        <div class="w-[700px] bg-black mx-auto mt-24 rounded-xl p-10">
+            <h1 class="text-white text-center font-bold text-3xl mb-12">Please contact me</h1>
+
+          <div class="container flex justify-between items-end gap-8 mb-8">
+             <div class="separator w-1/2">
+                <h3 class="text-blue-500 font-bold">Name</h3>
+                <input type="text" name="" id="name" class="w-full outline-none px-4" placeholder="Full Name">
+             </div>
+             <div class="btns w-1/2">
+                <button id="delete" onclick="dataDelete1()" class="text-white font-semibold bg-red-600 px-5 py-2 rounded-xl">Delete Name</button>
+                <button id="send" onclick="dataSend1()" class="text-white font-semibold bg-red-600 px-5 py-2 rounded-xl">Send Name</button>
+             </div>
+          </div>
+
+          <div class="container flex justify-between items-end gap-8 mb-8">
+            <div class="separator w-1/2">
+               <h3 class="text-blue-500 font-bold">Email</h3>
+               <input type="text" name="" id="email" class="w-full outline-none px-4" placeholder="Email Address">
+            </div>
+            <div class="btns w-1/2">
+               <button id="delete" onclick="dataDelete2()" class="text-white font-semibold bg-red-600 px-5 py-2 rounded-xl">Delete Name</button>
+               <button id="send" onclick="dataSend2()" class="text-white font-semibold bg-red-600 px-5 py-2 rounded-xl">Send Name</button>
+            </div>
+         </div>
+
+         <div class="container flex justify-between items-end gap-8 mb-8">
+            <div class="separator w-1/2">
+               <h3 class="text-blue-500 font-bold">Message</h3>
+               <input type="text" name="" id="message" class="w-full outline-none px-4" placeholder="message me">
+            </div>
+            <div class="btns w-1/2">
+               <button id="delete" onclick="dataDelete3()" class="text-white font-semibold bg-red-600 px-5 py-2 rounded-xl">Delete Name</button>
+               <button id="send" onclick="dataSend3()" class="text-white font-semibold bg-red-600 px-5 py-2 rounded-xl">Send Name</button>
+            </div>
+         </div>
+            
+         <div class=" text-center">
+            <button onclick="resetBtn()" class="bg-yellow-600 text-black font-medium px-10 py-2 rounded-full">Reset</button>
+         </div>
+
+        </div>
+     </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

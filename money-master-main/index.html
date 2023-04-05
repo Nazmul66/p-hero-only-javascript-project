@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#e5e5e5]">
+    
+     <section class="bg-white max-w-[1100px] mx-auto p-12">
+        <img src="image/thumb.png" alt="" class="block mx-auto mb-10 w-[30%]">
+
+        <div class="container flex justify-center gap-12">
+            <div class="img-div w-[55%]">
+                <img src="image/money.png" alt="" class="w-full h-full object-cover">
+            </div>
+
+            <div class="income-source bg-[#F8F8F8] pt-14 pb-9 px-7 text-center w-[45%]">
+                <h2 class="text-[#000] text-xl font-medium text-center mb-8">income</h2>
+                <div class="text-center mb-7">
+                    <label for="" class="text-[#000] text-[18px] font-normal mr-3">Income: </label>   
+                    <input type="text" name="" id="income-input" value="1000" class="bg-[#DCDCDC] rounded-sm outline-none px-4 h-[34px]">  
+                </div>
+                <h2 class="text-[#000] text-xl font-medium text-center mb-6">Expenses</h2>
+                <div class="text-center mb-5">
+                    <label for="" class="text-[#000] text-[18px] font-normal mr-3">Food: </label>   
+                    <input type="text" name="" id="food-input" class="bg-[#DCDCDC] rounded-sm outline-none px-4 h-[34px]">  
+                </div>
+                <div class="text-center mb-5">
+                    <label for="" class="text-[#000] text-[18px] font-normal mr-3">Rent: </label>   
+                    <input type="text" name="" id="rent-input" class="bg-[#DCDCDC] rounded-sm outline-none px-4 h-[34px]">  
+                </div>
+                <div class="text-center mb-7">
+                    <label for="" class="text-[#000] text-[18px] font-normal mr-3">Clothes: </label>   
+                    <input type="text" name="" id="clothes-input"  class="bg-[#DCDCDC] rounded-sm outline-none px-4 h-[34px]">  
+                </div>
+
+                <button id="btn-calculate" class="pt-[10px] pb-[9px] px-[57px] bg-[#59A5FF] rounded-[4px] text-white font-bold shadow-[0px_4px_18px_rgba(0, 0, 0, 0.1)]">Calculate</button>
+
+                <p class="text-[#000] text-xl font-medium text-center mb-5 mt-6">Total Expenses: <span id="expenses">00</span></p>
+               <p class="text-[#000] text-xl font-medium text-center mb-4">Balance: <span id="balance">00</span></p>
+
+               <div class="flex justify-end items-center mb-5">
+                    <label for="" class="text-[#000] text-[18px] font-normal mr-3">Save:</label>   
+                    <input type="text" name="" id="discount-input" value="20" class="bg-[#DCDCDC] rounded-sm outline-none px-4 h-[43px] w-[120px] block text-center">
+                    <span class="px-4 text-[#000]">%</span> 
+                    <button id="save-btn" class="pt-[10px] pb-[9px] px-[57px] bg-[#59A5FF] rounded-sm text-white font-bold">Save</button> 
+               </div>
+
+               <p class="text-[#000] text-xl font-medium text-center mb-5 mt-6">Saving Amount: <span id="save-amount">00</span></p>
+               <p class="text-[#000] text-xl font-medium text-center mb-4">Remaining Balance: <span id="remainsAll">00</span></p>
+            </div>
+        </div>
+     </section>
+  
+
+    <script src="js/app.js"></script>
+</body>
+</html>
